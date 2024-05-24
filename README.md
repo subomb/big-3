@@ -71,7 +71,7 @@ If four cards of the same rank are played consecutively, it counts as a "bomb." 
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/big-3.git
+    git clone https://github.com/subomb/big-3.git
     ```
 
 2. Navigate to the project directory:
