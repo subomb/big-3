@@ -23,7 +23,7 @@ The goal is to be the first player to discard all cards in your hand and on the 
 ### Playing Cards
 
 - Cards can be played as singles, doubles, triples, or quadruples.
-- Players must play cards that match or exceed the rank of the top card of the play pile, or use a special card to alter the gameplay.
+- Players must play cards that match or exceed the rank of the top card of the play pile or use a special card to alter the gameplay.
 
 ### Drawing Cards
 
@@ -43,7 +43,7 @@ Before the game starts, players may swap any of the two known cards on the table
 - **9:** Skips one or more players, depending on the number of 9s played.
 - **10 ("Bomb"):** Clears the current play pile to the discard pile.
 - **2 ("Reset"):** Resets the play pile value to zero; the next card played can be any value.
-- **3 ("Attack"):** The highest playable card that forces the next player to pick up the play pile unless they can play another 3. If the player does not have a 3, they take the play pile cards and their turn is skipped.
+- **3 ("Attack"):** The highest playable card that forces the next player to pick up the play pile unless they can play another 3. If the player does not have a 3, they take the play pile cards, and their turn is skipped.
 
 ### Bomb Rule
 
@@ -92,16 +92,21 @@ If four cards of the same rank are played consecutively, it counts as a "bomb." 
 - `specialCards.js`: JavaScript file for handling special card rules.
 - `gameLogic.js`: JavaScript file containing the main game logic.
 
+## Future Improvements
+
+Here are some ideas for future improvements to the game:
+
+- **Multiplayer Support:** Implement real-time multiplayer functionality using WebSockets to allow players to connect and play over the internet.
+- **AI Opponents:** Add AI opponents to enable single-player mode.
+- **Improved UI:** Enhance the user interface with more animations and visual effects.
+- **Mobile Support:** Optimize the game for mobile devices to allow for playing on the go.
+
 ## Contributing
 
-Feel free to fork this project, submit issues and pull requests. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Feel free to fork this project, submit issues, and pull requests. Contributions are welcome!
 
 ## Acknowledgements
 
-- Inspired by various card games and the desire to create a unique multiplayer card game experience.
+- Inspired by various card games and the desire to create my own unique multiplayer card game experience.
 
 Enjoy the game and have fun!
