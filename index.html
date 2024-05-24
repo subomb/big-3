@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Card Game</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="favicon.png"> 
+</head>
+<body>
+<div id="gameContainer">
+    <div class="header">
+        <button id="startGame">Start Game</button>
+    </div>
+    <div class="status-bar">
+        <div id="drawPile">Draw Pile: 0</div>
+        <div id="timer">Timer: 00</div>
+    </div>
+    <div class="playAreaTitle">Playing Area</div>
+    <div id="playArea" class="play-area"></div>
+    <div id="playersArea"></div>
+</div>
+<div id="debugArea" style="display: none;"></div>
+<script src="utils.js"></script>
+<script src="setup.js"></script>
+<script src="playerMoves.js"></script>
+<script src="specialCards.js"></script>
+<script src="gameLogic.js"></script>
+</body>
+</html>
